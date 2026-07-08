@@ -1,0 +1,13 @@
+name = "Simba Create SMP"
+author = "Simba group"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "878bb9a3e1ede67c9f7f4503e97b585a91a920ef34fb3f98ceed78bfb4ab21c9"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.235"

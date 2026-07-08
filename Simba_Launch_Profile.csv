@@ -1,0 +1,49 @@
+Tier,Mod,Loader Target,Checked Version,Source,Launch Decision,Performance Risk,Side,Notes
+Core,Create,NeoForge 1.21.1,6.0.10+mc1.21.1,https://modrinth.com/mod/create,Include,Medium,Client+Server,Main pack identity
+Core,Create Crafts & Additions,NeoForge 1.21.1,neoforge-1.21.1-1.6.0,https://modrinth.com/mod/createaddition,Include,Medium,Client+Server,Energy bridge and engineering depth
+Core,Create: Connected,NeoForge 1.21.1,1.3.2-mc1.21.1,https://modrinth.com/mod/create-connected,Include,Low,Client+Server,Good Create utility addon
+Core,Create Deco,NeoForge 1.21.1,2.1.3,https://modrinth.com/mod/create-deco,Include,Low,Client+Server,Rail and industrial decoration
+Core,Create: Copycats+,NeoForge 1.21.1,3.0.4+mc.1.21.1-neoforge,https://modrinth.com/mod/copycats,Include,Low,Client+Server,Important building detail
+Core,Create: Bells & Whistles,NeoForge 1.21.1,v0.4.7-1.21.1,https://modrinth.com/mod/bellsandwhistles,Include,Low,Client+Server,Train/station style
+Core,Create: Design n' Decor,NeoForge 1.21.1,2.2b,https://modrinth.com/mod/create-design-n-decor,Test,Medium,Client+Server,Good fit but test overlap
+Core,Create Ore Excavation,NeoForge 1.21.1,1.21.1-1.6.8,https://modrinth.com/mod/create-ore-excavation,Test,Medium,Client+Server,Tune rates carefully
+Core,Create: Enchantment Industry,NeoForge 1.21.1,2.4.2 stable available; newer alpha exists,https://modrinth.com/mod/create-enchantment-industry,Test,Medium,Client+Server,Use stable release not preview alpha
+Terrain,Tectonic,NeoForge 1.21.1,3.0.26-neoforge-21.1,https://modrinth.com/mod/tectonic,Include,Medium,Server,Large rail-worthy terrain
+Terrain,Terralith,NeoForge 1.21.1,2.6.2,https://modrinth.com/mod/terralith,Include,Medium,Server,Biome variety
+Terrain,Lithostitched,NeoForge 1.21.1,1.7.13-neoforge-21.1,https://modrinth.com/mod/lithostitched,Include,Low,Server,Worldgen dependency/compat
+Terrain,Distant Horizons,NeoForge 1.21.1,3.2.0-b-1.21.1,https://modrinth.com/mod/distanthorizons,Test,Medium,Client,Optional client visual scale
+Server,Chunky,NeoForge 1.21.1,1.4.23,https://modrinth.com/mod/chunky,Include,Low,Server,World pregeneration
+Performance,ModernFix,NeoForge 1.21.1,5.27.15+mc1.21.1,https://modrinth.com/mod/modernfix,Include,Low,Client+Server,Performance and fixes
+Performance,FerriteCore,NeoForge 1.21.1,7.0.3-neoforge,https://modrinth.com/mod/ferrite-core,Include,Low,Client+Server,Memory reduction
+Performance,Embeddium,NeoForge 1.21.1,1.0.15+mc1.21.1,https://modrinth.com/mod/embeddium,Include,Low,Client,Rendering performance
+Performance,Entity Culling,NeoForge 1.21.1,1.10.5,https://modrinth.com/mod/entityculling,Include,Low,Client,Rendering performance
+Performance,Dynamic FPS,NeoForge 1.21.1,3.11.4,https://modrinth.com/mod/dynamic-fps,Include,Low,Client,Background FPS/load reduction
+Performance,Clumps,NeoForge 1.21.1,19.0.0.1,https://modrinth.com/mod/clumps,Include,Low,Client+Server,XP orb lag reduction
+Performance,spark,NeoForge 1.21.1,1.10.124-neoforge-1.21.1,https://modrinth.com/mod/spark,Include,Low,Server,Profiling
+Build,FramedBlocks,NeoForge 1.21.1,10.6.1,https://modrinth.com/mod/framedblocks,Include,Low,Client+Server,Industrial shapes and utility builds
+Build,Supplementaries,NeoForge 1.21.1,1.21.1-3.7.7,https://modrinth.com/mod/supplementaries,Test,Medium,Client+Server,Atmosphere and details
+Build,Rechiseled,NeoForge 1.21.1,1.2.5-neoforge-mc1.21,https://modrinth.com/mod/rechiseled,Include,Low,Client+Server,Block variants
+Build,Rechiseled: Create,NeoForge 1.21.1,1.1.1-neoforge-mc1.21,https://modrinth.com/mod/rechiseled-create,Include,Low,Client+Server,Create block variants
+Build,Macaw's Bridges,NeoForge 1.21.1,3.1.2,https://modrinth.com/mod/macaws-bridges,Include,Low,Client+Server,Bridges and infrastructure
+Build,Chipped,NeoForge 1.21.1,4.0.2,https://modrinth.com/mod/chipped,Optional,Medium,Client+Server,Only add if Rechiseled palette is not enough
+Storage,Storage Drawers,NeoForge 1.21.1,1.21.1-13.11.4,https://modrinth.com/mod/storagedrawers,Include,Low,Client+Server,Bulk physical storage
+Storage,Sophisticated Backpacks,NeoForge 1.21.1,1.21.1-3.25.68.1971,https://modrinth.com/mod/sophisticated-backpacks,Include,Medium,Client+Server,Player storage
+Logistics,CC: Tweaked,NeoForge 1.21.1,1.120.0 alpha available; stable older builds available,https://modrinth.com/mod/cc-tweaked,Test,Medium,Client+Server,Use newest stable if available in launcher
+QoL,Polymorph,NeoForge 1.21.1,1.1.0+1.21.1,https://modrinth.com/mod/polymorph,Include,Low,Client+Server,Recipe conflict handling
+QoL,Just Enough Items,NeoForge 1.21.1,19.32.0.358 beta available,https://modrinth.com/mod/jei,Include,Low,Client,Recipe viewer
+QoL,Jade,NeoForge 1.21.1,15.10.5+neoforge,https://modrinth.com/mod/jade,Include,Low,Client+Server,Block/entity info
+QoL,AppleSkin,NeoForge 1.21.1,3.0.9+mc1.21,https://modrinth.com/mod/appleskin,Include,Low,Client,Food UI
+QoL,KubeJS,NeoForge 1.21.1,2101.7.2-build.368,https://modrinth.com/mod/kubejs,Test,Medium,Client+Server,Keep if we use scripts
+Flavour,Waystones,NeoForge 1.21.1,21.1.35+neoforge-1.21.1,https://modrinth.com/mod/waystones,Optional,Medium,Client+Server,Limit so trains still matter
+Flavour,Comforts,NeoForge 1.21.1,9.0.5+1.21.1,https://modrinth.com/mod/comforts,Optional,Low,Client+Server,Sleeping bags/hammocks
+Flavour,Carry On,NeoForge 1.21.1,2.2.5,https://modrinth.com/mod/carry-on,Optional,Medium,Client+Server,Useful but test interactions
+Flavour,Lootr,NeoForge 1.21.1,1.21.1-1.11.37.121,https://modrinth.com/mod/lootr,Include,Low,Client+Server,Multiplayer loot
+Admin,FTB Library,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge,Include,Low,Client+Server,FTB dependency
+Admin,FTB Teams,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge,Include,Low,Client+Server,Teams
+Admin,FTB Chunks,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge,Include,Medium,Client+Server,Claims/map/force-loading
+Admin,FTB Essentials,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-essentials,Include,Low,Server,Server commands
+Admin,FTB Backups 3,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-backups-3,Include,Low,Server,Backups
+Admin,FTB Ranks,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-ranks-forge,Include,Low,Server,Permissions
+Admin,FTB Quests,NeoForge 1.21.1,Check in CurseForge app,https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge,Optional,Medium,Client+Server,Onboarding only
+Experimental,Create Aeronautics,NeoForge 1.21.1,1.3.0+mc1.21.1,https://modrinth.com/mod/create-aeronautics,Experimental,High,Client+Server,Test in separate profile first
+Experimental,Steam 'n' Rails NeoForge Port,NeoForge 1.21.1,0.3.0-alpha.2+neoforge-mc1.21.1,https://modrinth.com/mod/create-steam-n-rails-1.21.1,Experimental,High,Client+Server,Alpha latest; use stable if available
