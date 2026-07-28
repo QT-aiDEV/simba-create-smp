@@ -16,7 +16,8 @@ Simba Create SMP is a curated Minecraft 1.21.1 NeoForge pack for cooperative wor
 - Choose **Lite** for lower client-side overhead with the same gameplay compatibility.
 - Server owners can use the matching **Server Pack** attached to the Heavy release.
 
-Current source version: **0.15.0 release**  
+Current source version: **0.15.0 release**
+
 Minecraft: **1.21.1** · NeoForge: **21.1.235** · Java: **21**
 
 ## Community
