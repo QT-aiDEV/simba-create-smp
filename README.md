@@ -48,6 +48,9 @@ From PowerShell:
 ```
 
 The validator checks all three profiles and blocks known dependency regressions.
+GitHub Actions uses `-SourceRepository` because third-party override jars are
+deliberately not redistributed through this public repository; normal local and
+release validation remains strict.
 
 ## Releases
 

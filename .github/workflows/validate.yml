@@ -20,7 +20,7 @@ jobs:
 
       - name: Run Simba validator
         shell: pwsh
-        run: ./scripts/Test-SimbaModpack.ps1 -RepoRoot $PWD
+        run: ./scripts/Test-SimbaModpack.ps1 -RepoRoot $PWD -SourceRepository
 
       - name: Scan tracked paths for private runtime data
         shell: pwsh

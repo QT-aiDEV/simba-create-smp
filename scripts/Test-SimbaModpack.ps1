@@ -1,5 +1,7 @@
 param(
-    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot)
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
+
+    [switch]$SourceRepository
 )
 
 $ErrorActionPreference = 'Stop'
@@ -150,7 +152,7 @@ foreach ($pack in $packs) {
             }
         }
     }
-    if (-not (Test-Path -LiteralPath (Join-Path $mods 'cc-tweaked-1.21.1-forge-1.120.0.jar'))) {
+    if (-not $SourceRepository -and -not (Test-Path -LiteralPath (Join-Path $mods 'cc-tweaked-1.21.1-forge-1.120.0.jar'))) {
         $failures.Add("$($pack.Name): missing pinned CC: Tweaked override")
     }
 
