@@ -87,7 +87,7 @@ the next group project instead of fighting setup problems.
 - Heavy adds the full Simba presentation, visual polish, ambience, and optional
   resource packs; Lite lowers client-side visual overhead without changing play
 
-### Current Release: 0.15.0 Beta
+### Current Release: 0.15.0
 
 0.15.0 updates the Create: Pipes'n Physics stack while preserving existing
 instant-transfer pipe behavior for compatibility. It also includes coordinated
@@ -126,6 +126,6 @@ looks this good in play, not just in key art.
 - Game version: `1.21.1`
 - Mod loader: `NeoForge`
 - Java: `Java 21`
-- Release type: `beta`
+- Release type: `release`
 - Suggested categories: Tech, Multiplayer, Exploration, Extra Large,
   Adventure/RPG, and Vanilla+ as appropriate.

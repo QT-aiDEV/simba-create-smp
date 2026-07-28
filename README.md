@@ -3,7 +3,7 @@
 [![CurseForge](https://img.shields.io/badge/CurseForge-Simba_Create_SMP-F16436?logo=curseforge&logoColor=white)](https://www.curseforge.com/minecraft/modpacks/simba-create)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.235-EF6C35)](https://neoforged.net/)
-[![Status](https://img.shields.io/badge/release-beta-f0ad4e)](https://www.curseforge.com/minecraft/modpacks/simba-create/files)
+[![Status](https://img.shields.io/badge/release-stable-2ea44f)](https://www.curseforge.com/minecraft/modpacks/simba-create/files)
 
 A friendly, Create-powered SMP where every factory feeds a world worth living in.
 
@@ -16,13 +16,13 @@ Simba Create SMP is a curated Minecraft 1.21.1 NeoForge pack for cooperative wor
 - Choose **Lite** for lower client-side overhead with the same gameplay compatibility.
 - Server owners can use the matching **Server Pack** attached to the Heavy release.
 
-Current source version: **0.15.0 beta**  
+Current source version: **0.15.0 release**  
 Minecraft: **1.21.1** · NeoForge: **21.1.235** · Java: **21**
 
 ## Community
 
-- Found a crash, broken recipe, or pack bug? [Open a bug report](../../issues/new?template=bug-report.yml).
-- Have a mod or balance idea? [Submit a suggestion](../../issues/new?template=mod-suggestion.yml).
+- Found a crash, broken recipe, or pack bug? [Open a bug report](https://github.com/QT-aiDEV/simba-create-smp/issues/new?template=bug-report.yml).
+- Have a mod or balance idea? [Submit a suggestion](https://github.com/QT-aiDEV/simba-create-smp/issues/new?template=mod-suggestion.yml).
 - Need installation help? Read [SUPPORT.md](SUPPORT.md) before opening an issue.
 - Please follow our [Code of Conduct](CODE_OF_CONDUCT.md).
 
