@@ -17,7 +17,9 @@ param(
 
     [switch]$ClientOnly,
 
-    [switch]$SkipAdditionalFiles
+    [switch]$SkipAdditionalFiles,
+
+    [int]$ExistingMainFileId = -1
 )
 
 Set-StrictMode -Version 2.0
@@ -158,12 +160,30 @@ $server = if (-not $ClientOnly) {
         -IsMainFile $false
 }
 
-$files = if ($SkipAdditionalFiles) { @($heavy) } elseif ($ClientOnly) { @($heavy, $lite) } else { @($heavy, $lite, $server) }
+if ($ExistingMainFileId -ge 0 -and $SkipAdditionalFiles) {
+    throw "-ExistingMainFileId cannot be combined with -SkipAdditionalFiles because there would be nothing to upload."
+}
+
+$files = if ($ExistingMainFileId -ge 0) {
+    if ($ClientOnly) { @($lite) } else { @($lite, $server) }
+}
+elseif ($SkipAdditionalFiles) {
+    @($heavy)
+}
+elseif ($ClientOnly) {
+    @($heavy, $lite)
+}
+else {
+    @($heavy, $lite, $server)
+}
 
 Write-Host "CurseForge project: $ProjectId"
 Write-Host "Version: $Version"
 Write-Host "Release type: $ReleaseType"
 Write-Host "Repo: $repoRoot"
+if ($ExistingMainFileId -ge 0) {
+    Write-Host "Existing Heavy parent file ID: $ExistingMainFileId"
+}
 Write-Host "Files:"
 $files | ForEach-Object { Write-Host "  - $($_.DisplayName): $($_.Path)" }
 
@@ -177,18 +197,24 @@ if ([string]::IsNullOrWhiteSpace($Token)) {
     throw "Missing CurseForge token. Set CURSEFORGE_TOKEN or pass -Token."
 }
 
-$mainFileId = Invoke-CurseForgeUpload `
-    -ProjectId $ProjectId `
-    -Endpoint $Endpoint `
-    -Token $Token `
-    -FilePath $heavy.Path `
-    -DisplayName $heavy.DisplayName `
-    -ReleaseType $ReleaseType `
-    -Changelog $changelog `
-    -GameVersionNames $heavy.GameVersionNames `
-    -ParentFileId -1
+$mainFileId = $ExistingMainFileId
+if ($mainFileId -lt 0) {
+    $mainFileId = Invoke-CurseForgeUpload `
+        -ProjectId $ProjectId `
+        -Endpoint $Endpoint `
+        -Token $Token `
+        -FilePath $heavy.Path `
+        -DisplayName $heavy.DisplayName `
+        -ReleaseType $ReleaseType `
+        -Changelog $changelog `
+        -GameVersionNames $heavy.GameVersionNames `
+        -ParentFileId -1
 
-Write-Host "Heavy uploaded as file ID $mainFileId"
+    Write-Host "Heavy uploaded as file ID $mainFileId"
+}
+else {
+    Write-Host "Using existing Heavy file ID $mainFileId"
+}
 
 if (-not $SkipAdditionalFiles) {
     foreach ($file in @($files | Where-Object { -not $_.IsMainFile })) {
