@@ -1,0 +1,23 @@
+[general]
+dummySetting = true
+dynamicGuiUseOldSimpleGUIVisual = false
+dynamicGuiTickSendRateOfGUIUpdates = 10
+dynamicGuiDontSendConstantGUIUpdates = true
+dynamicGuiBlurLevel = 1
+dynamicGuiSizeRadiusInPixelsToShow = 112.0
+dynamicGuiShowClientsEntireScreen = false
+dynamicGuiDisableBackgroundRendering = true
+showItemsBeingTransferredBetweenPlayerAndContainer = true
+distanceRequiredToShowGUIInfo = 10
+showIdleStatesInPlayerList = true
+showIdleStatesInPlayerAboveHead = true
+showPlayerAnimations = true
+showPlayerAnimation_Typing = true
+showPlayerAnimation_Idle = true
+showPlayerAnimation_Gui = true
+showPlayerActiveNonChatGui = true
+showPlayerActiveChatGui = true
+screenTypingVisible = true
+playScreenOpenSounds = true
+playMouseClickSounds = true
+

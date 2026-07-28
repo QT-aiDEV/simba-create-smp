@@ -1,0 +1,11 @@
+name = "Created Drawers"
+filename = "CreatedDrawers_1.20+.zip"
+
+[download]
+hash-format = "sha1"
+hash = "dbc58619e4efaa61278f96e807d415c5c817ca39"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+project-id = 819691
+file-id = 5454595

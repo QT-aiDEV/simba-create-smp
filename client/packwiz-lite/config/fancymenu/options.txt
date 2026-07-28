@@ -1,0 +1,37 @@
+##[customization]
+B:advanced_customization_mode = 'false';
+B:show_customization_overlay = 'false';
+B:modpack_mode = 'true';
+
+
+
+##[window]
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_16 = '/config/fancymenu/assets/simba/simba-window-icon-16.png';
+S:custom_window_icon_32 = '/config/fancymenu/assets/simba/simba-window-icon-32.png';
+S:custom_window_icon_macos = '/config/fancymenu/assets/simba/simba-window-icon.icns';
+S:custom_window_title = 'Simba Create SMP';
+
+
+
+##[global_customizations]
+S:global_button_background_normal = '[source:local]/config/fancymenu/assets/simba/simba-button-normal-ambient.fma';
+S:global_button_background_hover = '[source:local]/config/fancymenu/assets/simba/button-hover.png';
+S:global_button_background_inactive = '[source:local]/config/fancymenu/assets/simba/button-inactive.png';
+B:global_button_background_transparent = 'false';
+B:global_button_background_nine_slice = 'true';
+I:global_button_background_nine_slice_border_top = '4';
+I:global_button_background_nine_slice_border_right = '4';
+I:global_button_background_nine_slice_border_bottom = '4';
+I:global_button_background_nine_slice_border_left = '4';
+B:global_button_label_underline_on_hover = 'false';
+S:global_button_label_base_color = '#F0E8D8';
+S:global_button_label_hover_color = '#FFD36A';
+F:global_button_label_scale = '1.0';
+B:global_button_label_shadow = 'true';
+B:seamless_world_loading = 'true';
+
+
+
+##[tutorial]
+B:show_welcome_screen = 'false';

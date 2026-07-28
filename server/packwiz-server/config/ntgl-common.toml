@@ -1,0 +1,30 @@
+[common.gameplay]
+growBoundingBoxAmount = 0.3
+enableHeadShots = true
+headShotDamageMultiplier = 1.25
+criticalDamageMultiplier = 1.5
+ignoreLeaves = true
+enableKnockback = true
+knockbackStrength = 0.15
+improvedHitboxes = false
+
+[common.gameplay.griefing]
+enableGlassBreaking = true
+fragileBlockDrops = true
+fragileBlockBreakChance = 1.0
+setFireToBlocks = false
+enableBlockRemovalOnExplosions = false
+
+[common.network]
+projectileTrackingRange = 200.0
+
+[common.aggro_mobs]
+enabled = true
+angerHostileMobs = true
+unsilencedRange = 20.0
+exemptMobs = []
+
+[common.projectile_spread]
+spreadThreshold = 300
+maxCount = 10
+

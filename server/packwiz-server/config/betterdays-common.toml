@@ -1,0 +1,45 @@
+[time]
+speedMethod = "MINUTES"
+daySpeed = 1.0
+nightSpeed = 1.0
+daySpeedMinutes = 60.0
+nightSpeedMinutes = 15.0
+dayStart = 23500.0
+nightStart = 12500.0
+enableInterpolatedTime = false
+interpolatedTimeSmoothingFactor = 0.25
+interpolatedTimeList = ["0,1.0", "24000,1.0"]
+
+[time.effects]
+weatherEffect = "SLEEPING"
+randomTickEffect = "NEVER"
+baseRandomTickSpeed = 3
+potionEffect = "NEVER"
+hungerEffect = "NEVER"
+blockEntityEffect = "NEVER"
+
+[sleep]
+enableSleepFeature = true
+sleepSpeedMax = 110.0
+sleepSpeedMin = 8.0
+sleepSpeedAll = -1.0
+sleepSpeedCurve = 0.35
+clearWeatherOnWake = true
+allowDaySleep = false
+displayBedClock = true
+ratioPlayersForSleep = 0.0
+
+[sleep.messages.morning]
+message = "§e§oMorning has arrived."
+type = "GAME_INFO"
+target = "DIMENSION"
+
+[sleep.messages.enterBed]
+message = "${player} is sleeping. [${sleepingPlayers}/${totalPlayers}]"
+type = "GAME_INFO"
+target = "DIMENSION"
+
+[sleep.messages.leaveBed]
+message = "${player} left their bed. [${sleepingPlayers}/${totalPlayers}]"
+type = "GAME_INFO"
+target = "DIMENSION"

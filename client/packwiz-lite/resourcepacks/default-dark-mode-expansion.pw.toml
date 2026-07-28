@@ -1,0 +1,12 @@
+name = "Default Dark Mode: Expansion"
+filename = "Default-Dark-Mode-Expansion-1.19.0+-2026.7.20.zip"
+
+[download]
+hash-format = "sha1"
+hash = "a2f275af1c8d3fdb70ed253ca8cd16e39c154e19"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8470260
+project-id = 1077191

@@ -1,0 +1,9 @@
+[engine]
+	#0.15.0 compatibility rollout: keep pipes as legacy instant-transfer links
+	#while taking the Pipes'n Physics 3.0.0 endpoint and machine compatibility fixes.
+	#The new 3.0.0 default is 250 mB per pipe block. Test brewery filtering and
+	#mixed-fluid networks before opting into storage.
+	pipeVolumePerCell = 0
+
+	#Keep existing dry suction lines working as they did before 3.0.0.
+	enablePumpSelfPriming = true

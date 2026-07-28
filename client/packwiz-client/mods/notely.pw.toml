@@ -1,0 +1,13 @@
+name = "Notely"
+filename = "notely-neoforge-1.21.1-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "2ac91e345598ca10f1a887ba47d596e2d457526b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7978220
+project-id = 1510287

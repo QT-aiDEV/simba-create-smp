@@ -1,0 +1,74 @@
+name: Publish to CurseForge
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Version matching the three files in exports
+        required: true
+        type: string
+      release_type:
+        description: CurseForge release channel
+        required: true
+        default: beta
+        type: choice
+        options:
+          - beta
+          - alpha
+          - release
+      changelog_path:
+        description: Repository-relative Markdown changelog
+        required: true
+        default: docs/CHANGELOG_0.15.0.md
+        type: string
+      release_tag:
+        description: GitHub release tag containing the three prepared CurseForge zip assets
+        required: true
+        type: string
+      confirm_publish:
+        description: Type PUBLISH to enable the upload step
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    if: inputs.confirm_publish == 'PUBLISH'
+    runs-on: windows-latest
+    environment: curseforge-production
+    timeout-minutes: 20
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Download prepared release assets
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          New-Item -ItemType Directory -Force exports | Out-Null
+          gh release download '${{ inputs.release_tag }}' `
+            --repo '${{ github.repository }}' `
+            --dir exports `
+            --pattern 'Simba Create SMP-${{ inputs.version }}-*-CF-With-Overrides-CurseForge.zip'
+
+      - name: Validate upload plan
+        shell: pwsh
+        run: |
+          ./scripts/Publish-SimbaCurseForge.ps1 `
+            -Version '${{ inputs.version }}' `
+            -ReleaseType '${{ inputs.release_type }}' `
+            -ChangelogPath '${{ inputs.changelog_path }}'
+
+      - name: Upload Heavy, Lite, and Server files
+        shell: pwsh
+        env:
+          CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+        run: |
+          ./scripts/Publish-SimbaCurseForge.ps1 `
+            -Version '${{ inputs.version }}' `
+            -ReleaseType '${{ inputs.release_type }}' `
+            -ChangelogPath '${{ inputs.changelog_path }}' `
+            -Upload

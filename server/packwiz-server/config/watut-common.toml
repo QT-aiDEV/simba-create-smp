@@ -1,0 +1,4 @@
+[general]
+announceIdleStatesInChat = false
+ticksToMarkPlayerIdle = 6000
+

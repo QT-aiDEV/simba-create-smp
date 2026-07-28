@@ -1,0 +1,9 @@
+[buildings]
+	customCraftingModules = []
+
+[worldGens]
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	emptyColoniesGenerationChance = 0.35
+
+

@@ -1,0 +1,79 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1
+  is_enabled = false
+  randommode = false
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = autoscale
+  basewidth = 960
+  baseheight = 540
+}
+
+menu_background {
+  instance_identifier = simba_main_background
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/simba/main-menu-background.png
+  repeat_texture = false
+  slide = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_main_logo_backplate
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 8
+  width = 165
+  height = 83
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/main-logo-backplate.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFFFF
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_main_logo_sustenance
+  anchor_point = top-centered
+  sticky_anchor = true
+  x = 0
+  y = 13
+  width = 140
+  height = 65
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/main-logo-sustenance.png
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = false
+  image_tint = #FFFFFFFF
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_logo_widget
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = minecraft_splash_widget
+  is_hidden = true
+}

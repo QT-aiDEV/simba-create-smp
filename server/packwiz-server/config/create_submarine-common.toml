@@ -1,0 +1,27 @@
+[gameplay]
+disableImplosion = false
+oxygenMaxFillBlocks = 1500000
+enableDeeperOceans = false
+deeperOceansDepth = 10
+
+[hullStrength]
+globalMaxDepthCap = 600
+maxDepthMultiplier = 2.0
+implosionChanceMultiplier = 0.10
+
+[mechanics]
+ballastForceMultiplier = 1.0
+ballastLiftPerTank = 100.0
+floaterLift = 35.0
+ballastVerticalSpeed = 2.0
+ballastTransferRateMultiplier = 2.0
+waterThrusterPowerMultiplier = 6.0
+submarinePropellerPowerMultiplier = 3.0
+pulleyMaxSlideSpeed = 24.0
+steelCableMaxLength = 1000
+
+[experimental]
+enableBoatWaterCulling = false
+
+[client]
+disableStartupScreens = true

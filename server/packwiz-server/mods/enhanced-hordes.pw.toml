@@ -1,0 +1,13 @@
+name = "Enhanced Hordes"
+filename = "eh2.0-neoforge1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1df6f4a37619799e4dd72769365b4e1234310500"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8362707
+project-id = 899308

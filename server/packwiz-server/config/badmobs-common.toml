@@ -1,0 +1,36 @@
+# Zombie-focused natural spawning. Spawners, spawn eggs, and conversions remain usable.
+[minecraft.creeper]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true
+
+[minecraft.skeleton]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true
+
+[minecraft.stray]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true
+
+[minecraft.bogged]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true
+
+[minecraft.spider]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true
+
+[minecraft.cave_spider]
+allowNormalSpawning = false
+allowSpawners = true
+allowSpawnEggs = true
+allowConversions = true

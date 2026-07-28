@@ -1,0 +1,14 @@
+name = "IamMusicPlayer Renewed"
+filename = "neoforge-3.23.1-1.21.1-beta2.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "b726e9b45fced1ec1821e09381323cbab7624c93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8026686
+project-id = 1199214

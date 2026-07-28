@@ -1,0 +1,13 @@
+name = "Undead Nights - Zombie Horde Nights / Hordes"
+filename = "UndeadNights-2.1.7-NeoForge-mc1.21.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e6c7fd5a4302397267b65f3e465480cb03a577ee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8087173
+project-id = 1166914

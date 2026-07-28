@@ -1,0 +1,115 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 3
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = autoscale
+  basewidth = 960
+  baseheight = 540
+}
+
+menu_background {
+  instance_identifier = simba_loading_background
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/simba/loading-vista-cloudless-base.png
+  repeat_texture = false
+  slide = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_loading_clouds_far
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 960
+  height = 540
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/simba-clouds-far.fma
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = true
+  image_tint = #FFFFFFFF
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_loading_blink
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 0
+  width = 960
+  height = 540
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/simba-blink.fma
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = true
+  image_tint = #FFFFFFFF
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_loading_logo
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 5
+  y = -92
+  width = 280
+  height = 121
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/simba-loading-logo-breath.fma
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = true
+  image_tint = #FFFFFFFF
+}
+
+element {
+  element_type = drippy_vanilla_bar
+  instance_identifier = simba_loading_progress
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 86
+  width = 420
+  height = 10
+  stay_on_screen = true
+  color = #D99A36
+}
+
+element {
+  element_type = image
+  instance_identifier = simba_loading_progress_sheen
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = 86
+  width = 420
+  height = 10
+  stay_on_screen = true
+  source = [source:local]/config/fancymenu/assets/simba/simba-loading-progress-sheen.fma
+  repeat_texture = false
+  nine_slice_texture = false
+  restart_animated_on_menu_load = true
+  image_tint = #FFFFFFFF
+}

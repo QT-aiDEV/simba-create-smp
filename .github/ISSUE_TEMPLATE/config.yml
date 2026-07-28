@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Simba Create SMP
+    url: https://www.curseforge.com/minecraft/modpacks/simba-create
+    about: Get the official Heavy, Lite, and Server files from CurseForge.
+  - name: Support guide
+    url: https://github.com/QT-aiDEV/simba-create-smp/blob/main/SUPPORT.md
+    about: Check what information to collect before reporting a problem.

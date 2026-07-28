@@ -1,0 +1,18 @@
+{
+  "serverName": "Simba Create SMP",
+  "serverDirectory": "..\\dedicated",
+  "javaPath": "java",
+  "serverArguments": "@user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.235/win_args.txt",
+  "launchMode": "consoleWindow",
+  "consoleWindowTitle": "Simba Create SMP - Live Server Console",
+  "serverPort": 25565,
+  "checkIntervalSeconds": 5,
+  "startupGraceSeconds": 180,
+  "logStaleSeconds": 180,
+  "restartCooldownSeconds": 90,
+  "stopTimeoutSeconds": 180,
+  "maxRestartsPerHour": 4,
+  "autoStartOnOpen": false,
+  "keepAliveOnOpen": true,
+  "backupCommand": "ftbbackups3 backup"
+}

@@ -1,0 +1,14 @@
+name = "Stock Market"
+filename = "stockmarket-neoforge-1.3.1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "72808423d2de01b0cd099478273192c79f394ba1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6200720
+project-id = 1158647

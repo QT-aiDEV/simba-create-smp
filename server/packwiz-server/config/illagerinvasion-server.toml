@@ -1,0 +1,24 @@
+[alchemist]
+participate_in_raids = true
+[sorcerer]
+participate_in_raids = true
+[illusioner]
+participate_in_raids = true
+[basher]
+participate_in_raids = true
+[necromancer]
+participate_in_raids = true
+[inquisitor]
+participate_in_raids = true
+[provoker]
+participate_in_raids = true
+[archivist]
+participate_in_raids = true
+[marauder]
+participate_in_raids = true
+[invoker]
+participate_in_raids = false
+invoker_boss_bar = true
+[general]
+platinum_trim_effects = true
+

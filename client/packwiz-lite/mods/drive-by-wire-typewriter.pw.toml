@@ -1,0 +1,14 @@
+name = "Drive-By-Wire: Typewriter"
+filename = "drivebywire-typewriter-1.1.0-beta.2.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "9c4fb483428e3486d71a5c35e230463d20e87024"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8347375
+project-id = 1558687

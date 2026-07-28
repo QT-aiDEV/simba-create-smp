@@ -1,0 +1,15 @@
+# Simba survival profile: pets remain earned companions rather than unlimited boss mounts.
+["General Settings"]
+maxPetsPerPlayer = 6
+requireKillToTame = true
+tameHealthThreshold = 0.5
+tameChance = 0.2
+
+["Pet Riding Settings"]
+mountRequireSaddle = true
+ridingBlacklistEnabled = true
+ridingBlacklist = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "minecraft:elder_guardian", "minecraft:ravager", "illagerinvasion:*"]
+
+["Blacklist Settings"]
+blacklistEnabled = true
+tamingBlacklist = ["minecraft:wither", "minecraft:ender_dragon", "minecraft:warden", "minecraft:elder_guardian", "minecraft:evoker", "minecraft:vindicator", "minecraft:pillager", "minecraft:ravager", "minecraft:witch", "illagerinvasion:*"]

@@ -1,0 +1,32 @@
+name: Validate modpack
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Run Simba validator
+        shell: pwsh
+        run: ./scripts/Test-SimbaModpack.ps1 -RepoRoot $PWD
+
+      - name: Scan tracked paths for private runtime data
+        shell: pwsh
+        run: |
+          $blocked = git ls-files | Select-String -Pattern '(^|/)(world[^/]*|playerdata|logs|crash-reports|backups|exports|dedicated)/|(^|/)(ops|whitelist|usercache|banned-[^/]+)\.json$|\.(jar|key|pem)$'
+          if ($blocked) {
+            $blocked | ForEach-Object { Write-Error "Blocked tracked path: $_" }
+            exit 1
+          }

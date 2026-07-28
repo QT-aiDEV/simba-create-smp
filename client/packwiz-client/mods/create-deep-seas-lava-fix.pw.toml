@@ -1,0 +1,13 @@
+name = "Create: Deep Seas - Lava Fix"
+filename = "submarinefix-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7d1c5567a9b37f5476ad89a41c869b85eb627f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8253620
+project-id = 1576284

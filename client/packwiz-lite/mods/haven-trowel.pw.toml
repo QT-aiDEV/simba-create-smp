@@ -1,0 +1,13 @@
+name = "Haven Trowel"
+filename = "HavenTrowel-NeoForge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0aea5ce7c52ba997d27923ba1ce6bf4051748d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6111771
+project-id = 1096328

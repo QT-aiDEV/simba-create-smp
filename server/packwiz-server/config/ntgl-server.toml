@@ -1,0 +1,8 @@
+[server]
+enableCameraRecoil = true
+cooldownThreshold = 75
+
+[server.audio]
+gunShotMaxDistance = 100.0
+reloadMaxDistance = 24.0
+

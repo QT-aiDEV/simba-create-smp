@@ -1,0 +1,13 @@
+name = "Create Train Lights"
+filename = "ctl-neoforge-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db199bb9212044c4474c8b42d60c4c7b3d36bd34"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7761822
+project-id = 1318080

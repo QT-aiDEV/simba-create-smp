@@ -1,2 +1,78 @@
+# Local tooling and editor state
 .tools/
+.codex/
+.agents/
+.idea/
+.vscode/
 *.log
+*.tmp
+*.bak
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*token*
+*secret*
+*credentials*
+
+# Build and release outputs
+exports/
+backups/
+*.mrpack
+*.jar
+
+# Download, installer, and test scratch areas
+server/_downloads/
+server/_installer_test/
+server/dedicated/
+test-client/
+
+# Private experiments, research captures, and future candidates
+dev/
+future/
+ref/
+
+# Keep approved public media, not working/source art archives
+art/*
+!art/curseforge/
+!art/curseforge/**
+
+# Minecraft runtime/world/player data (never publish)
+**/world/
+**/world_*/
+**/logs/
+**/crash-reports/
+**/debug/
+**/libraries/
+**/versions/
+**/runtime/
+**/saves/
+**/screenshots/
+**/downloads/
+**/playerdata/
+**/stats/
+**/advancements/
+**/session.lock
+**/usercache.json
+**/usernamecache.json
+**/whitelist.json
+**/ops.json
+**/banned-*.json
+**/eula.txt
+
+# Generated caches and databases
+**/.cache/
+**/cache/
+**/*.db
+**/*.db-*
+**/*.sqlite
+**/*.sqlite3
+**/node_modules/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store

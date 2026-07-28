@@ -1,0 +1,14 @@
+name = "Petting - Tame any mob!"
+filename = "petting-4.2.2-neoforge-1.21.1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "b7c70de20f85f66901a855e89e58d73f8a098cbe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7949714
+project-id = 1083170

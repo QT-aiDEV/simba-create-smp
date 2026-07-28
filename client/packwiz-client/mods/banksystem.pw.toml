@@ -1,0 +1,14 @@
+name = "BankSystem"
+filename = "banksystem-neoforge-1.4.1.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha1"
+hash = "ef86e300cd24073e39655223aa45783b38779297"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6200607
+project-id = 1175370

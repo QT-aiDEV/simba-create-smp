@@ -1,0 +1,91 @@
+name: Bug report
+description: Report a repeatable crash, pack defect, or compatibility problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Simba. Search existing issues first and remove private information from logs.
+  - type: input
+    id: pack_version
+    attributes:
+      label: Simba version
+      description: The exact release shown in CurseForge or pack.toml.
+      placeholder: "0.15.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: profile
+    attributes:
+      label: Profile
+      options:
+        - Heavy
+        - Lite
+        - Server Pack
+        - Heavy and Lite
+        - Unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen?
+      options:
+        - Single-player
+        - Multiplayer client
+        - Dedicated server
+        - Client and dedicated server
+    validations:
+      required: true
+  - type: input
+    id: java
+    attributes:
+      label: Java version
+      description: Run `java -version` if you are unsure.
+      placeholder: "Java 21.0.x"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Launch the unmodified pack
+        2. Open...
+        3. Place...
+        4. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Crash report or relevant log
+      description: Drag in a crash report or paste only the relevant excerpt. Redact tokens, addresses, IPs, and private player data.
+      render: shell
+  - type: textarea
+    id: modifications
+    attributes:
+      label: Local changes
+      description: List any mods, configs, shaders, resource packs, or JVM arguments you changed. Write "None" for an unmodified pack.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I reproduced this on the official, unmodified Simba release or clearly listed my changes.
+          required: true
+        - label: I removed passwords, tokens, server addresses, player IPs, and other private data.
+          required: true

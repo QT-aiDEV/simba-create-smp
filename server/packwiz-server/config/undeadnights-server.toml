@@ -1,0 +1,31 @@
+undeadNightsEnabled = true
+gracePeriod = 7
+sendHordeNightsCountdownMessage = true
+hordeSpawnedMessageAndSound = true
+distanceMin = 70
+distanceMax = 75
+hordeMobsSpawnCap = 40
+ignoreDoMobSpawningGamerule = false
+hordeWavesCanSpawnInWater = false
+hordeWavesCanSpawnOnTrees = false
+hordeWavesCanSpawnInCaves = false
+caveSpawnDistance = 50
+blockLightLevelsInfluenceMonsterSpawns = true
+maxBlockLightLevelForMonsterSpawns = 0
+hordeNightsDisableSleeping = true
+enableAutomaticDifficultyProgression = false
+preventDespawnWhenInsideMaxTrackingRange = false
+persistentMobs = false
+securityCraftCompatibility = false
+hordeZombiesSpawnNaturally = true
+eliteZombiesSpawnNaturally = true
+# Demolition zombies carry TNT and their explosions can destroy unclaimed blocks.
+demolitionZombiesSpawnNaturally = false
+noNaturalSpawningBeforeFirstHordeNight = true
+# Keep the variety and horde pressure, but avoid damage-sponge zombies.
+maxHealthHordeZombies = 24.0
+maxHealthEliteZombies = 24.0
+maxHealthDemolitionZombies = 24.0
+enableAsynchronousHordeSpawning = false
+printDebugMessages = false
+debugMakeHordeMobsGlow = false

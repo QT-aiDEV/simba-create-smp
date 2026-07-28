@@ -1,0 +1,13 @@
+name = "Passive Shield"
+filename = "passiveshield-1.21.1-3.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1dc83de117b2adb3d2f8e3e758704de0345bbfdf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6185426
+project-id = 447359

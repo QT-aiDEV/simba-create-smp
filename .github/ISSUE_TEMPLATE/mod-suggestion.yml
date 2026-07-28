@@ -1,0 +1,59 @@
+name: Mod or feature suggestion
+description: Suggest a mod, configuration, balance change, or quality-of-life improvement.
+title: "[Suggestion]: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      placeholder: Add or change...
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - New mod
+        - Mod update
+        - Configuration or balance
+        - Performance
+        - Visual or audio
+        - Server or community feature
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What does this add to Simba?
+      description: Explain the player problem, gameplay loop, or community benefit.
+    validations:
+      required: true
+  - type: input
+    id: project_url
+    attributes:
+      label: Official project link
+      description: For a mod request, link its official CurseForge page.
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/...
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility evidence
+      description: Include Minecraft 1.21.1, NeoForge, Create 6, server/client side, dependencies, and license or redistribution notes.
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and tradeoffs
+      description: Consider world migration, performance, balance, overlapping features, and Heavy/Lite/Server impact.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and the current mod list.
+          required: true
+        - label: I did not ask a mod author to support Simba or pressure them for an update.
+          required: true

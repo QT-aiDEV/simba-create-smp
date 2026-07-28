@@ -1,0 +1,16 @@
+# Apply Simba's visual/resource-pack baseline once on a fresh install.
+# Default Options records the first application and never overwrites a player's
+# own selection on later pack updates.
+defaultResourcePacks = [
+  "vanilla",
+  "file/Default-Dark-Mode-1.20.2+-2025.5.0.zip",
+  "file/Default-Dark-Mode-Expansion-1.19.0+-2026.6.16.zip",
+  "file/Tom's Create Style 1.2 - 1.21.zip",
+  "file/CreateSophBackpacks.zip",
+  "file/Create Immersive Aircrafts Resource Pack 1.21.1 - 3.0.zip",
+  "file/CreatedDrawers_1.20+.zip",
+  "file/Simba Create SMP Branding.zip",
+  "file/TZP_1.20.1_2.7.zip",
+  "mod_resources",
+  "file/Simba Chat Format.zip"
+]

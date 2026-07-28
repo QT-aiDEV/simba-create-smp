@@ -1,0 +1,323 @@
+Wave,Mod,Decision,Source,Notes
+0.14.0,Advanced Peripherals,Added,CurseForge,Full 1.21.1 peripheral suite for Meep Chat and friend-led CC projects; no peripheral types are disabled by Simba
+0.14.0,CC:C Bridge,Added,CurseForge,Create and CC:Tweaked display/source bridge for Meep civic and transit experiences
+0.1.0,AppleSkin,Included,CurseForge,Baseline QoL
+0.1.0,CC: Tweaked,Included,CurseForge,Baseline computers/logistics
+0.1.0,Chunky (Forge/NeoForge),Included,CurseForge,Baseline pregeneration
+0.1.0,Clumps,Included,CurseForge,Baseline performance
+0.1.0,Create,Included,CurseForge,Baseline core
+0.1.0,Create Crafts & Additions,Included,CurseForge,Baseline power bridge
+0.1.0,Create Deco,Included,CurseForge,Baseline rail-town decoration
+0.1.0,Create Ore Excavation,Included,CurseForge,Baseline resource loop
+0.1.0,Create: Bells & Whistles,Included,CurseForge,Baseline train decoration
+0.1.0,Create: Connected,Included,CurseForge,Baseline Create utility
+0.1.0,Create: Copycats+,Included,CurseForge,Baseline building detail
+0.1.0,Create: Design n' Decor,Included,CurseForge,Baseline Create decoration
+0.1.0,Create: Dragons Plus,Included,CurseForge,Baseline dependency
+0.1.0,Create: Enchantment Industry,Included,CurseForge,Baseline stable 2.4.2
+0.1.0,Dynamic FPS,Included,CurseForge,Baseline client performance
+0.1.0,Embeddium,Included,CurseForge,Baseline renderer; remove if Sodium is added
+0.1.0,Entity Culling Fabric/Forge,Included,CurseForge,Baseline client performance
+0.1.0,FerriteCore,Included,CurseForge,Baseline memory
+0.1.0,FramedBlocks,Included,CurseForge,Baseline building
+0.1.0,Fusion (Connected Textures),Included,CurseForge,Baseline dependency
+0.1.0,Jade,Included,CurseForge,Baseline UI info
+0.1.0,Just Enough Items (JEI),Included,CurseForge,Baseline recipes
+0.1.0,Lithostitched,Included,CurseForge,Baseline worldgen dependency
+0.1.0,Lootr,Included,CurseForge,Baseline multiplayer loot
+0.1.0,Macaw's Bridges,Included,CurseForge,Baseline infrastructure
+0.1.0,ModernFix,Included,CurseForge,Baseline performance
+0.1.0,Moonlight Lib,Included,CurseForge,Baseline dependency
+0.1.0,Polymorph,Included,CurseForge,Baseline recipe conflicts
+0.1.0,Rechiseled,Included,CurseForge,Baseline block palette
+0.1.0,Rechiseled: Create,Included,CurseForge,Baseline block palette
+0.1.0,Sophisticated Backpacks,Included,CurseForge,Baseline storage
+0.1.0,Sophisticated Core,Included,CurseForge,Baseline dependency
+0.1.0,spark,Included,CurseForge,Baseline profiling
+0.1.0,Storage Drawers,Included,CurseForge,Baseline bulk storage
+0.1.0,SuperMartijn642's Config Lib,Included,CurseForge,Baseline dependency
+0.1.0,SuperMartijn642's Core Lib,Included,CurseForge,Baseline dependency
+0.1.0,Supplementaries,Included,CurseForge,Baseline atmosphere
+0.1.0,Tectonic,Included,CurseForge,Baseline terrain
+0.1.0,Terralith,Included,CurseForge,Baseline terrain
+0.2.0,Architectury API,Added,CurseForge,Dependency pulled by FTB Library
+0.2.0,FTB Library,Added,CurseForge,Admin foundation
+0.2.0,FTB Teams,Added,CurseForge,Teams
+0.2.0,FTB Chunks,Added,CurseForge,Claims map and force-loading policy foundation
+0.2.0,FTB Essentials,Added,CurseForge,Server commands
+0.2.0,FTB Backups 3,Added,CurseForge,Server backups
+0.2.0,FTB Ranks,Added,CurseForge,Permissions
+0.2.0,FTB XMod Compat,Added,CurseForge,Included for FTB Chunks/Ranks integration
+0.3.0,Embeddium,Removed,CurseForge,Replaced by Sodium per renderer decision
+0.3.0,Sodium,Added,CurseForge,NeoForge renderer stack
+0.3.0,Iris Shaders,Added,CurseForge,Shader loader; beta build selected for NeoForge 1.21.1
+0.3.0,Distant Horizons,Added,CurseForge,Long-distance terrain visual layer
+0.3.0,Sound Physics Remastered,Added,CurseForge,World atmosphere audio
+0.3.0,Complementary Reimagined,Manual note,CurseForge,Not bundled until shaderpack licensing/export behavior is confirmed
+0.4.0,Create Railways Navigator,Added,CurseForge,Rail navigation and train UX
+0.4.0,DragonLib,Added,CurseForge,Dependency pulled by Create Railways Navigator
+0.4.0,Create: Track Map (UNOFFICIAL FORK),Added,CurseForge,1.21.1 NeoForge unofficial fork; requires real launch testing
+0.4.0,Kotlin for Forge,Added,CurseForge,Dependency pulled by Track Map
+0.4.0,Simply Light,Added,CurseForge,Light blocks for infrastructure builds
+0.4.0,Create: Dynamic Lights,Added,CurseForge,Contraption lighting
+0.4.0,LambDynamicLights,Skipped,CurseForge,Not required by Create: Dynamic Lights on this export
+0.5.0,Create: Diesel Generators,Added,CurseForge,Industrial power and refinery chain
+0.5.0,Create: Power Loader,Added,CurseForge,Immersive Create chunk loading; config/test risk
+0.5.0,Create Mechanical Extruder,Added,CurseForge,Create 6.0.10-targeted mechanical resource generation
+0.5.0,Mechanicals Lib,Added,CurseForge,Dependency pulled by Create Mechanical Extruder
+0.5.0,Create: New Age,Added,CurseForge,Electrical/power systems; added by exact project/file ID
+0.6.0,Farmer's Delight,Added,CurseForge,Lived-in survival food layer
+0.6.0,Handcrafted,Added,CurseForge,Single furniture/detail pack
+0.6.0,Resourceful Lib,Added,CurseForge,Dependency pulled by Handcrafted
+0.7.0,Iron Chests,Added,CurseForge,Simple expandable chest storage
+0.7.0,Tom's Simple Storage Mod,Added,CurseForge,Group-requested storage interface; not AE2/RS
+0.7.0,Mouse Tweaks,Added,CurseForge,Inventory mouse controls
+0.7.0,Balm,Added,CurseForge,Dependency pulled by Inventory Essentials/Blay mods
+0.7.0,Inventory Essentials,Added,CurseForge,Inventory controls and sorting
+0.7.0,Crafting Tweaks,Added,CurseForge,Crafting grid controls; added by exact project/file ID
+0.7.0,TrashSlot,Added,CurseForge,Inventory trash slot
+0.7.0,Durability Tooltip,Added,CurseForge,Durability visibility
+0.8.0,AmbientSounds 6,Added,CurseForge,Ambient soundscape; client-side ambience
+0.8.0,CreativeCore,Added,CurseForge,Dependency pulled by AmbientSounds
+0.8.0,Presence Footsteps (NeoForge),Added,CurseForge,Footstep/material sound ambience; unofficial NeoForge port
+0.8.0,Particle Rain,Added,CurseForge,Weather particle/fog ambience; beta build
+0.8.0,Falling Leaves,Added,CurseForge,Subtle foliage particles
+0.8.0,Not Enough Animations,Added,CurseForge,Third-person animation polish
+0.8.0,Visual Workbench,Added,CurseForge,Crafting table visual immersion
+0.8.0,Puzzles Lib,Added,CurseForge,Dependency pulled by Visual Workbench
+0.9.2,ImmediatelyFast,Added,CurseForge,Client immediate-mode rendering performance
+0.9.2,BadOptimizations,Added,CurseForge,Client optimization helper
+0.9.2,MoreCulling,Added,CurseForge,Additional block/model culling
+0.9.2,Cloth Config API,Added,CurseForge,Dependency pulled by MoreCulling
+0.9.2,Alternate Current,Added,CurseForge,Redstone update optimization
+0.9.2,ServerCore,Added,CurseForge,Server TPS and lag-spike optimization
+0.9.2,AllTheLeaks,Added,CurseForge,Memory leak fixes
+0.9.2,Server Performance - Smooth Chunk Save,Added,CurseForge,Chunk save lag-spike reduction
+0.9.2,Cupboard,Added,CurseForge,Dependency pulled by Smooth Chunk Save and Connectivity already compatible
+0.9.2,FastSuite,Added,CurseForge,Recipe/cache performance
+0.9.2,FastWorkbench,Added,CurseForge,Crafting performance
+0.9.2,FastFurnace,Added,CurseForge,Furnace recipe/cache performance
+0.9.2,Placebo,Added,CurseForge,Dependency pulled by FastSuite/FastWorkbench/FastFurnace
+0.9.2,AI Improvements,Added,CurseForge,Mob AI/pathfinding optimization
+0.9.2,NoisiumForked,Added,CurseForge,Worldgen performance
+0.9.2,Connectivity,Added,CurseForge,Network/login/payload/ghost-block stability helper
+0.9.2,ScalableLux,Added,CurseForge,Light update performance
+0.9.2,Let Me Despawn,Added,CurseForge,Mob despawn performance; requires captive animal testing
+0.9.2,Almanac Lib,Added,CurseForge,Dependency pulled by Let Me Despawn
+0.9.2,C2ME,Skipped,CurseForge,Powerful but needs separate compatibility testing before main profile
+0.9.2,Packet Fixer,Skipped,CurseForge,Avoided stacking packet/network fixers with Connectivity
+0.9.3,Create: Electro Energetics,Added,CurseForge,George_VI electricity/grid addon; adds electrical generation transmission distribution FE conversion and electric trains
+Review,Loconautics,Watchlist,External,Appears unreleased/coming soon; do not add until stable CurseForge 1.21.1 NeoForge release exists
+Review,Ferronautics,Skipped,CurseForge,Beta; page says development halted and will be superseded by Loconautics
+Review,Create: Automatics,Watchlist,External,Appears upcoming/CurseForge soon; likely tied to Aeronautics/Sable test profile
+Review,Valkyrien Skies unofficial NeoForge port,Skipped,CurseForge,Unofficial 1.21.1 port; states Iris/Oculus shader incompatibility; keep out of main profile
+Review,Create Aeronautics,Test profile only,CurseForge,Available for 1.21.1 NeoForge but previously excluded from main; visual issues with Iris; requires Sable
+Review,Oritech,Test profile only,CurseForge,Available for 1.21.1 NeoForge but adds a second full tech identity and worldgen/progression weight
+Review,Simple Conveyor Belts,Test candidate,CurseForge,Available for 1.21.1 NeoForge and lighter than Oritech; beta and overlaps Create belts
+0.9.4,Oritech,Added,CurseForge,Accepted as lighter second tech identity than Mekanism; adds fallback tech path if Create hits a roadblock
+0.9.4,Athena,Added,CurseForge,Dependency pulled by Oritech
+0.9.4,GeckoLib,Added,CurseForge,Dependency pulled by Oritech for animated machinery
+0.9.4,Simple Conveyor Belts,Added,CurseForge,Rearth belt mod; adds flexible item belts as an optional logistics flavor alongside Create belts
+0.9.5,Create Aeronautics,Added,CurseForge,Create/Sable vehicle and airship expansion; VS avoided; shader visuals require testing
+0.9.5,Sable,Added,CurseForge,Dependency pulled by Create Aeronautics for interactive moving block structures/sub-levels
+0.9.5,Create Aeronautics: Compatibility,Added,CurseForge,Compatibility helper for mods that do not work cleanly with Aeronautics
+0.9.5,Steam 'n' Rails Neoforge,Added,CurseForge,Unofficial 1.21.1 NeoForge rail expansion; alpha risk noted
+0.9.5,Colorwheel,Added,CurseForge,Client-side Iris/Flywheel/Create shader compatibility helper; added by exact NeoForge file ID
+0.9.5,Loconautics,Watchlist,External,Not added; appears unreleased/coming soon
+0.9.5,Ferronautics,Skipped,CurseForge,Not added; beta/crude and development halted in favor of Loconautics
+0.9.5,Valkyrien Skies,Skipped,CurseForge,Not added; avoided due shader/physics instability risk
+0.9.6,Create: The Factory Must Grow,Added,CurseForge,Major Create oil/refinery/heavy engineering addon; added release file rather than latest beta
+0.9.6,Create: Liquid Fuel,Added,CurseForge,Allows liquid fuel use with Create blaze burners
+0.9.6,TFMG Liquid Fuel Compat,Added,CurseForge,Bridges TFMG liquid fuels into Create Liquid Fuel
+0.9.6,Create Aeronautics: Portable Engine Liquid Fuel,Added,CurseForge,Adds liquid fuel support for Aeronautics portable engines
+0.9.6,Create: Petrochem,Added,CurseForge,Petroleum extraction/refining addon with pumpjacks distillation and fuel engines
+0.9.6,Create: Alloyed,Added,CurseForge,Dependency pulled by Create: Petrochem
+0.9.7,Almost Unified,Added,CurseForge,Resource/recipe unification helper for duplicate metals/materials across Oritech TFMG Petrochem Alloyed and Create addons
+0.9.7,Create Deep Seas,Added,CurseForge,Aeronautics/Sable submarine and boat addon; alpha/Early Access risk noted
+0.9.7,Create: Deep Seas - Lava Fix,Added,CurseForge,Bugfix helper for sealed submarines taking lava/fire damage; added with Deep Seas
+0.9.8,Terralith,Removed,CurseForge,Removed to avoid stacking two biome overhaul systems after switching biome identity to Middgard
+0.9.8,Middgard,Added,CurseForge,Biome and forest realism overhaul; added exact NeoForge 1.21.1 file
+0.9.8,Oh The Trees You'll Grow,Added,CurseForge,Dependency pulled by Middgard for tree generation
+0.9.8,Treeplacer,Added,CurseForge,Dependency pulled by Middgard for tree placement
+0.9.8,Tectonic,Kept,CurseForge,Primary terrain shape layer
+0.9.8,Lithostitched,Kept,CurseForge,Worldgen support layer retained for compatibility/deep ocean support
+0.9.9,Client/server side metadata,Updated,packwiz,Marked 24 shader renderer UI audio and ambience mods as client-only for safer dedicated-server builds
+0.9.10,Repository split,Updated,Local,Created client and server packwiz folders plus NeoForge dedicated server folder
+0.9.10,ScalableLux,Removed,CurseForge,Removed because Sable declares an incompatibility and blocked dedicated-server startup
+0.9.10,CC: Tweaked,Updated,Modrinth,Replaced CurseForge 1.113.1 metadata with 1.120.0 because Create New Age requires ComputerCraft/CC:Tweaked 1.116.2 or newer
+0.9.10,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 95 server jars and accepted stop command
+0.9.11,Create: Power Grid,Added,CurseForge,Create-flavored electrical grid and power infrastructure expansion
+0.9.11,Building Gadgets,Added,CurseForge,Large-build QoL tools for factories depots rail towns and utility buildings
+0.9.11,Builders Crafts & Additions,Added,CurseForge,Industrial doors panels pillars beams counters storage and furniture-style build detail
+0.9.11,Powah,Skipped,CurseForge,Skipped by request to keep the power lane Create-first
+0.9.11,Searchlight,Skipped,CurseForge,Skipped because a clean NeoForge 1.21.1 target was not found
+0.9.11,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 98 server jars and accepted stop command
+0.9.12,Chipped,Added,CurseForge,Chisel-style mega block palette for stone concrete glass and other building materials
+0.9.12,Macaw's Lights and Lamps,Added,CurseForge,General-purpose street lamps ceiling lights wall lanterns light slabs chandeliers and town lighting
+0.9.12,Additional Blocks: Stone Edition,Skipped,External,Not available as a clean current target; Chipped and Rechiseled cover the stone/block-palette need
+0.9.12,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 100 server jars and accepted stop command
+0.9.12,Heavy client profile,Added,Local,Full client profile with shaders ambience particles Distant Horizons and all client QoL
+0.9.12,Lite client profile,Added,Local,Server-near client profile with only practical client helpers and performance basics
+0.9.13,Dynamic View and Simulation Distances,Added,CurseForge,Server-side adaptive view and simulation distance to protect TPS under load
+0.9.13,GriefLogger,Added,CurseForge,Server-side block/action logging for moderation and investigation using SQLite defaults
+0.9.13,Packet Fixer,Skipped,CurseForge,Skipped because Connectivity already covers the network timeout payload and packet-stability lane
+0.9.13,Limited Chunkloading,Skipped,CurseForge,Skipped because it may interfere with FTB Chunks and Create Power Loader chunkloading policy
+0.9.13,LuckPerms,Skipped,CurseForge,Skipped because FTB Ranks already covers permissions in the current admin stack
+0.9.13,BlueMap,Skipped,CurseForge,Useful later but not performance hardening; adds web map disk CPU and port surface
+0.9.13,Simple Voice Chat,Skipped,CurseForge,Social feature requiring client install and UDP setup; not server performance hardening
+0.9.13,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 102 server jars and accepted stop command
+0.9.13,Reese's Sodium Options,Added,Modrinth,Client dependency fix for Sodium Options API; bundled override jar in CurseForge export
+0.9.13,Sodium Options API,Added,Modrinth,Required by Sodium Dynamic Lights and compatible with Sodium 0.8.12 on NeoForge 1.21.1
+0.9.13,Sodium Dynamic Lights,Added,Modrinth,Required by Create Dynamic Lights with the Sodium renderer stack
+0.9.13,Sodium,Updated,Modrinth,Resolved to 0.8.12+mc1.21.1 to satisfy Sodium Options API compatibility
+0.9.15,Create Cardan Shafts,Added,CurseForge,Create-compatible cardan shaft connectors for drivetrain routing
+0.9.15,Create Aeronautics: Transmission & Linkage,Added,CurseForge,Universal joints kinetic converters and linkage parts for the Aeronautics/Sable mechanical ecosystem
+0.9.15,Create Aeronautics: Toolgun,Added,CurseForge,Aeronautics toolgun and blueprint workflow support
+0.9.15,Create: Tracks+,Added,Modrinth,Current NeoForge 1.21.1 fork of Create Tracks for Aeronautics-compatible track systems
+0.9.15,Create: Aeroworks,Added,CurseForge,Aeronautics cockpit/control and ship component expansion
+0.9.15,Create Propulsion: Simulated,Added,CurseForge,Thruster propulsion addon for the Sable/Aeronautics stack
+0.9.15,Create Aeronautics: Gadgets & Gizmos,Added,CurseForge,Formerly Thrusters & Things; extra Aeronautics gadgets and propulsion-related parts
+0.9.15,Create Aeronautics: Delivery Required,Rejected for main,CurseForge,Failed dedicated-server boot after pulling the KubeJS/Numismatics/LDLib/Ponder/Rhino dependency chain
+0.9.15,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 109 server jars and accepted stop command
+0.9.16,FTB Ultimine,Added,CurseForge,High-value mining and building comfort utility; dedicated-server boot passed
+0.9.16,Create Encased,Added,CurseForge,Low-risk Create casing/deco expansion compatible with Create 6.0.10
+0.9.16,Create Goggles,Added,CurseForge,Create wearable QoL expansion with goggle helmets and armored backtanks
+0.9.16,Create Stuff & Additions,Held,CurseForge,Useful but includes mobility/flying-style equipment; hold for balance review instead of adding blindly
+0.9.16,Create Sifting,Held,CurseForge,Resource generation overlaps Ore Excavation and Mechanical Extruder; hold for progression/balance review
+0.9.16,Create Numismatics,Held,CurseForge,Good shop/currency idea but adjacent to the Delivery Required dependency chain that failed testing
+0.9.16,Create Dreams & Desires,Held,CurseForge,Large mixed-content addon; needs focused compatibility and balance testing before main
+0.9.16,Video addon overlap review,Completed,Local,Many listed mods are already covered by Copycats+ FramedBlocks Design n' Decor Connected Diesel Generators Mechanical Extruder Power Loader Ore Excavation and Rechiseled Create
+0.9.16,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 112 server jars and accepted stop command
+0.9.17,Create: Pipes'n Physics,Added,CurseForge,Deepens Create pipe and pump behavior; boot passed but refinery and long-pipe network testing required
+0.9.17,Create Jetpack,Added,CurseForge,Create-native personal transport using backtank/pressurized-air progression for Scott's jetpack request
+0.9.17,Dedicated server boot,Passed,Local,NeoForge server reached ready state with 114 server jars and accepted stop command
+0.9.18,Create: Central Kitchen,Added,CurseForge,Farmer's Delight plus Create automation glue; boot passed
+0.9.18,AllTheLeaks,Removed,CurseForge,Removed during hardening because it produced false-positive stuck-thread shutdown noise and a Supplementaries constructor error
+0.9.18,FTB Ultimine config,Tuned,Local,Requires proper valid tools adds short cooldown and prevents tool breakage below 5 durability
+0.9.18,FTB Backups 3 config,Tuned,Local,Enabled backup on shutdown and verified backup completed during C and D server tests
+0.9.18,ServerCore config,Tuned,Local,Enabled unloaded-chunk movement protection for smoother exploration
+0.9.18,Server pack config source,Updated,Local,Promoted generated server configs into packwiz server source for reproducible rebuilds
+0.9.18,D final server sync,Completed,Local,Synced mods configs docs exports and watchdog without touching world folder
+0.9.18,Dedicated server boot,Passed,Local,C and D NeoForge servers reached ready state with 114 server jars and accepted stop command
+0.9.20,Create: structures,Added,CurseForge,Create-flavored world structures for more lived-in exploration; required Easy Structures and Bits n Bobs
+0.9.20,Create: Easy Structures,Added,CurseForge,Dependency for Create structures
+0.9.20,Create: Bits 'n' Bobs,Added,CurseForge/Modrinth,Dependency for Create structures and useful Create detail parts
+0.9.20,YUNG's Better Nether Fortresses,Added,CurseForge,Nether fortress upgrade for better exploration variety
+0.9.20,YUNG's API,Added,CurseForge,Dependency for YUNG's Better Nether Fortresses
+0.9.20,Create: Vibrant Vaults,Added,CurseForge,Colored and vertical vault variants for depots factories and storage rooms
+0.9.20,Create: Protection Pixel,Added,CurseForge,Create-styled armor and protection vibe addon; boot passed
+0.9.20,Petrol's Parts,Added,CurseForge,Create-native mechanical parts that fit the engineering vibe; boot passed
+0.9.20,Petrolpark Library,Added,CurseForge,Dependency for Petrol's Parts
+0.9.20,Create Teleporters,Rejected for main,CurseForge,Removed because quantum mechanism recipe failed to parse on Create 6 and Minecraft 1.21.1
+0.9.20,Dedicated server boot,Passed,Local,C and D NeoForge servers reached ready state with 123 server jars and accepted stop command
+0.9.21,Create Nuclear,Added,CurseForge/Modrinth,Endgame Create power proofing; boot passed but reactor uranium chunk reload and restart behavior need in-world testing
+0.9.21,D final server sync,Completed,Local,Synced Create Nuclear jar and server pack source to D without touching world folder
+0.9.21,Dedicated server boot,Passed,Local,C and D NeoForge servers reached ready state with 124 server jars and accepted stop command
+0.9.22,Create Train Utilities,Added,CurseForge/Modrinth,Station doors platform blocks and train/station building blocks; boot passed with advancement-only log noise
+0.9.22,Create Train Lights,Added,CurseForge/Modrinth,Direction-aware train head/tail lights and interior train lights; boot passed
+0.9.22,Create: Train Perspective,Added,Modrinth,Client-side train camera immersion for riding trains; included in Heavy and Lite only
+0.9.22,Railways Untold,Held,CurseForge/Modrinth,Procedural infinite rail worldgen is cool but too invasive for launch lock; keep as separate experiment
+0.9.22,D final server sync,Completed,Local,Synced transport-last-call server jars and pack source to D without touching world folder
+0.9.22,Dedicated server boot,Passed,Local,D NeoForge server reached ready state with 126 server jars and accepted stop command
+0.9.22 Feature Freeze,Tinkers' Construct,Held,CurseForge/Modrinth,Not cleanly available for Minecraft 1.21.1 NeoForge; do not add before group test
+0.9.22 Feature Freeze,Silent Gear,Held,CurseForge/Modrinth,Good future gear candidate but adds a parallel gear progression; hold until after first group test
+0.9.22 Feature Freeze,Tetra,Held,CurseForge,Parallel modular gear progression; not needed before launch lock
+0.9.22 Feature Freeze,Simply Swords,Held,CurseForge,Combat weapon expansion is not core to Create rail-town identity; hold until after group testing
+0.9.22 Feature Freeze,AI town and colony systems,Held,Review,Too much worldgen entity and maintenance risk for launch lock; keep player-built towns as the identity
+0.9.22 Feature Freeze,Feature freeze,Completed,Local,0.9.22 locked for controlled group testing; only bugfix dependency and stability changes before test
+0.9.23,Controlling,Added,CurseForge,Client keybind search and conflict finder added to Heavy and Lite
+0.9.23,Searchables,Added,CurseForge,Dependency for Controlling added to Heavy and Lite
+0.9.23,Catalogue,Added,CurseForge,Professional mod list menu added to Heavy and Lite
+0.9.23,Configured,Added,CurseForge,In-game config menu support added to Heavy and Lite
+0.9.23,Xaero's Minimap,Added,CurseForge,Preferred lightweight minimap added to Heavy and Lite
+0.9.23,Xaero's World Map,Added,CurseForge,Preferred lightweight world map added to Heavy and Lite
+0.9.23,Chat Heads,Added,CurseForge,Heavy-only multiplayer chat readability polish
+0.9.23,Legendary Tooltips,Added,CurseForge,Heavy-only tooltip visual polish
+0.9.23,Advancement Plaques,Added,CurseForge,Heavy-only advancement popup polish
+0.9.23,Blur+,Added,CurseForge,Heavy-only menu visual polish
+0.9.23,Dark Loading Screen Neoforge,Added,Modrinth,Heavy-only loading screen comfort
+0.9.23,Euphoria Patches,Added,Modrinth,Heavy-only Complementary shader options extension
+0.9.23,Complementary Reimagined,Added,Modrinth,Heavy-only shaderpack option bundled in overrides
+0.9.23,BSL Shaders,Added,Modrinth,Heavy-only shaderpack option bundled in overrides
+0.9.23,Bliss Shaders,Added,Modrinth,Heavy-only Distant Horizons-friendly shaderpack option bundled in overrides
+0.9.23,Photon Shaders,Added,Modrinth,Heavy-only Distant Horizons-friendly shaderpack option bundled in overrides
+0.9.23,Fresh Animations/entity model stack,Held,Review,Held to avoid rendering-model risk before group test
+0.9.23,FancyMenu/Drippy branding stack,Held,Review,Held as later branding polish because it adds extra maintenance and export complexity
+0.9.24,Crash Assistant,Added,CurseForge,Added to Heavy and Lite for clearer client crash handling during group testing
+0.9.24,Crash Utilities,Added,CurseForge,Added to server profile for server-side crash diagnostics and safer troubleshooting
+0.9.24,Client options defaults,Added,Local,Heavy and Lite now ship options.txt with VSync off FPS capped at 120 auto-jump off and disciplined render/simulation distances
+0.9.24,Iris defaults,Added,Local,Heavy defaults to Complementary Reimagined while Lite defaults to shaders disabled
+0.9.24,Spark,Confirmed,CurseForge,Already present and retained as the primary server profiler for TPS tick cost and memory investigations
+0.9.24,Dedicated server boot,Passed,Local,D server reached ready state with 127 jars after Crash Utilities and accepted stop command
+0.9.24,Inventory Profiles Next,Held,Modrinth/CurseForge,Compatible with 1.21.1 NeoForge but overlaps Inventory Essentials and Mouse Tweaks; hold unless group wants heavier inventory automation
+0.9.25,Inventory Profiles Next,Added,Modrinth,Promoted to main inventory management mod in Heavy and Lite
+0.9.25,libIPN,Added,Modrinth,Required client dependency for Inventory Profiles Next
+0.9.25,Kotlin for Forge,Added,Modrinth,Required dependency for Inventory Profiles Next
+0.9.25,Inventory Essentials,Removed,CurseForge,Removed from Heavy and Lite so Inventory Profiles Next is the single primary inventory sorter
+0.9.25,Mouse Tweaks,Kept,CurseForge,Kept alongside Inventory Profiles Next for lightweight mouse-drag inventory controls
+0.9.27,Simba branding art,Added,Local,Generated pack icon server icon app icon source menu art and low-risk title panorama resource pack
+0.9.27,Raw Simba reference photos,Held,Local,Used as likeness reference only and not copied into the repo as pack assets
+0.9.27,Simba Create SMP Branding resource pack,Added,Local,Added to Heavy and Lite and enabled by default through options.txt
+0.9.27,Immersive Paintings,Added,Modrinth,Added to Heavy Lite and server for shared group art screenshots posters and town/factory decoration
+0.9.27,Fzzy Config,Added,Modrinth,Required dependency for Immersive Paintings added to Heavy Lite and server
+0.9.27,Dedicated server boot,Passed,Local,D server reached ready state with 129 jars after Immersive Paintings and accepted stop command
+0.9.28,Blur+,Removed,CurseForge,Removed from Heavy only to reach 169 entries; replaced menu comfort with Simba branding resource pack
+0.9.28,Dark Loading Screen Neoforge,Removed,Modrinth,Removed from Heavy only to avoid another client mod; dark loading vibe moved into Simba branding resources
+0.9.28,Shadow-side Simba loading art,Added,Local,Generated and added dark window-profile Simba loading/title art to the branding pack
+0.9.28,Black Loading Screen resource pack,Reviewed,Modrinth,Mostly OptiFine color.properties and not reliable with Sodium/Iris; useful dark color hint merged into Simba branding pack only
+0.9.29 Lite,AppleSkin,Removed,CurseForge,Removed from Lite to make it actually light; food HUD info is nice but not required
+0.9.29 Lite,Catalogue,Removed,CurseForge,Removed from Lite; mod menu polish belongs in Heavy
+0.9.29 Lite,Configured,Removed,CurseForge,Removed from Lite; in-game config UI polish belongs in Heavy
+0.9.29 Lite,Crash Assistant,Removed,CurseForge,Removed from Lite; useful but not mandatory for normal play
+0.9.29 Lite,Crafting Tweaks,Removed,CurseForge,Removed from Lite; Inventory Profiles Next and Mouse Tweaks cover the main inventory comfort
+0.9.29 Lite,Create: Train Perspective,Removed,Modrinth,Removed from Lite; train camera polish belongs in Heavy
+0.9.29 Lite,Reese's Sodium Options,Removed,Modrinth,Removed from Lite; Sodium remains but extra settings UI is not required
+0.9.29 Lite,Sodium Dynamic Lights,Removed,Modrinth,Removed from Lite; dynamic lighting is visual polish not required for laptop profile
+0.9.29 Lite,Sodium Options API,Removed,Modrinth,Removed from Lite because Reese's Sodium Options and Sodium Dynamic Lights were removed
+0.9.29 Lite,Simba branding resource pack,Kept,Local,Kept in Lite by request so the light profile still feels like Simba Create SMP
+0.10.0,Middgard,Removed,CurseForge,Removed custom trunk and branch tree system after group testing found awkward multi-block trees and leaf issues
+0.10.0,Oh The Trees You'll Grow,Removed,CurseForge,Removed with Middgard dependency stack
+0.10.0,Treeplacer,Removed,CurseForge,Removed with Middgard dependency stack
+0.10.0,Terralith,Added,CurseForge,Restored supported Tectonic-compatible biome and worldgen layer for fresh world
+0.10.0,Create Aeronautics Transmission and Linkage,Removed,CurseForge,Removed after client startup crash report
+0.10.0,CC Tweaked,Added,Override,Restored pinned 1.120.0 override across Heavy Lite and Server
+0.10.0,Torchmaster,Added,CurseForge,Adds Mega Torches requested by group testing
+0.10.0,Comforts,Added,CurseForge,Adds sleeping bags and hammocks requested by group testing
+0.10.0,Curios API,Added,CurseForge,Adds requested accessory API support
+0.10.0,Corail Tombstone,Added,CurseForge,Adds permanent graves with tech-focused configuration and reduced XP loss
+0.10.0,FallingTree,Added,CurseForge,Adds tool-required whole-tree felling with larger tree support
+0.10.0,Carry On,Added,CurseForge,Adds safe entity and container carrying with players and Create machinery protected
+0.10.0,JEI,Added,CurseForge,Added known-good pinned JEI build to server profile
+0.10.0 Map Lock,Middgard,Restored,CurseForge,Kept with established world and group decision
+0.10.0 Map Lock,Oh The Trees You'll Grow,Restored,CurseForge,Required Middgard tree generation dependency
+0.10.0 Map Lock,Treeplacer,Restored,CurseForge,Required Middgard tree placement dependency pinned to 2.1.0
+0.10.0 Map Lock,Terralith,Removed,CurseForge,Not needed beside Middgard and avoided new-chunk worldgen drift
+0.10.0 Map Lock,Create Aeronautics Transmission and Linkage,Added,CurseForge,Restored version 0.2.4 for final player testing
+0.10.0 Map Lock,Paxi,Added,CurseForge,Loads targeted compatibility cleanup datapack globally
+0.10.0 Map Lock,Simba cleanup datapack,Added,Override,Disables 597 invalid optional loot recipe and advancement resources while preserving valid content
+0.10.0 Map Lock,Steam n Rails Neoforge,Updated,CurseForge,Updated from 0.3.0 alpha 2 to 0.3.0 beta
+0.10.0 Map Lock,Create Quality Of Life,Added,CurseForge,Create 6.0.10-compatible utility addon and Portable Engine Liquid Fuel integration target
+0.10.0 Map Lock,BlueMap,Added Server Only,CurseForge,3D web map on TCP 8100 with mod-resource scanning and player-safe render throttling
+0.10.0 Scott List,Create Ultimine,Added,CurseForge,FTB Ultimine integration for Create encasing and bulk interactions
+0.10.0 Scott List,Passive Shield,Added,CurseForge,Shield hidden until raised with passive damage bonus disabled
+0.10.0 Scott List,Exposure,Added,CurseForge,In-game photography alongside Immersive Paintings
+0.10.0 Scott List,Haven Trowel,Added,CurseForge,Maintained NeoForge replacement for unavailable Trowels Fork
+0.10.0 Scott List,Sawmill,Added,CurseForge,Automatic modded woodcutting recipes
+0.10.0 Scott List,Raw's Visual Keybinder,Added Clients,CurseForge,Client keybinding conflict UI
+0.10.0 Scott List,Simple Voice Chat,Added,CurseForge,Proximity voice on UDP 24454
+0.10.0 Scott List,Ok Zoomer,Added Clients,CurseForge,Configurable client zoom
+0.10.0 Scott List,Create Contraption Terminals,Added,CurseForge,Toms storage terminals on Create contraptions
+0.10.0 Scott List,Create Big Cannons,Added,CurseForge,Create artillery engineering
+0.10.0 Scott List,Create Radars,Added,CurseForge,Radar and Big Cannons targeting integration
+0.10.0 Scott List,Create Blocks and Bogies,Added,CurseForge,Expanded train bogie palette
+0.10.0 Scott List,Create Escalated,Added,CurseForge,Rotational escalators and walkways
+0.10.0 Scott List,Create Live Radio,Added,Modrinth,Internet radio with Aeronautics moving-structure support
+0.10.0 Scott List,AstikorCarts Redux,Added,CurseForge,Horse carts and plows
+0.10.0 Scott List,Parcool,Added Beta,CurseForge,Parkour movement pending player feel testing
+0.10.0 Scott List,Immersive Aircraft,Added,CurseForge,Simple rustic aircraft alongside build-your-own Aeronautics
+0.10.0 Scott List,Mutants and Zombies,Added,CurseForge,Zombie and mutant variety
+0.10.0 Scott List,Undead Nights,Added,CurseForge,Horde nights tuned for seven-day grace and capped load
+0.10.0 Scott List,Enhanced Hordes,Added Beta,CurseForge,Cooperative zombie behavior
+0.10.0 Scott List,Bad Mobs,Added,CurseForge,Supported replacement for unavailable You Shall Not Spawn
+0.10.0 Scott List,You Shall Not Spawn,Skipped,CurseForge,No compatible NeoForge 1.21.1 file
+0.10.0 Scott List,Immersive Vehicles,Skipped,CurseForge,Framework contains no vehicles without separate content packs and overlaps Create transport
